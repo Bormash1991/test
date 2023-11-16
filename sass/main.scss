@@ -1,0 +1,11 @@
+//Reset all styles
+@import "reset";
+
+//Styles all block html
+@import "block/header";
+@import "block/list";
+@import "block/send__unit";
+
+//Media all block html
+@import "media/header__media";
+@import "media/send__media";

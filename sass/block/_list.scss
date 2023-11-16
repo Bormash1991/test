@@ -1,0 +1,49 @@
+.select {
+    position: relative;
+    display: inline-block;
+}
+
+.new-select {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #fff;
+    user-select: none;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 10px;
+
+    img {
+        width: 20px;
+        height: 17px;
+        margin-right: 5px;
+    }
+}
+
+.new-select__list {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    border: 1px solid #ced4da;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    user-select: none;
+}
+
+.new-select__item {
+    padding: 5px 10px 5px 17px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.new-select__item:hover {
+    background-color: #f0f0f0;
+}
+
+.new-select__list.on {
+    display: block;
+}
